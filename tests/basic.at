@@ -1,0 +1,6 @@
+AT_BANNER([basic unit tests])
+
+AT_SETUP([basic])
+AT_KEYWORDS([basic])
+AT_CHECK([test-basic ], [], [expout], [ignore])
+AT_CLEANUP
